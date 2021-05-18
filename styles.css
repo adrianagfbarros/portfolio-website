@@ -17,6 +17,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--headingfont);
 }
 
+h2 {
+    font-size: 2rem;
+    color: var(--titles)
+}
+
+h1 {
+    font-size: 3rem;
+}
+
 p {
     font-family: var(--textfont);
 }
@@ -27,6 +36,10 @@ body {
     padding: 0;
     font-size: 1.6rem;
     font-family: var(--textfont);
+}
+
+main {
+    margin:0;
 }
 
 #headerContent {
@@ -55,3 +68,62 @@ body {
     padding: 1rem;
     border-radius: .2rem;
     }
+
+#heroSection {
+    width: 80vw;
+    height: 70vh; 
+    padding-top: 30vh;
+    margin: auto;
+}
+
+#heroSection h1 {
+    font-family: var(--textfont);
+    font-size: 2rem;
+    color: var(--subtitles)
+}
+
+#heroSection h2 {
+    margin-bottom: -2%;
+    font-size: 6rem;
+    color: var(--titles)
+}
+
+#btnHeroSection {
+    background-image: linear-gradient( 183.5deg,  rgba(244,173,6,1) 18.6%, rgba(229,251,31,1) 119.9% );
+    color: var(--titles);
+    font-family: var(--textfont);
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 1.5%;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+#btnHeroSection:hover {
+    background-image: linear-gradient( 320deg,  rgba(244,173,6,1) 18.6%, rgba(229,251,31,1) 119.9% );
+
+}
+
+#infoSection {
+    height: 100vh;
+}
+
+#aboutSection {
+    height: 100vh;
+}
+
+#contactSection {
+    height: 100vh;
+}
+
+#footerSection {
+    text-align: center;
+    background-color: var(--subtitles);
+    height: 15vh;
+    line-height: 15vh;
+    }
+
+#footerSection p {
+    font-size: 1.2rem;
+}
