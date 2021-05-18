@@ -1,2 +1,60 @@
-Estilos do meu projeto
-testando vscode
+/* Global styles*/
+:root {
+    font-size: 10px;
+    --titles: #612E54;
+    --subtitles: #DBB700;
+    --buttons: #16DBD9;
+    --titles2: #E012AD;
+    --text: #3B383A;
+    --background: #DED5DC;
+    --background2: #29001F;
+    --textwhite: #FCD7F3; 
+    --headingfont: 'Archivo Black', sans-serif;
+    --textfont: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--headingfont);
+}
+
+p {
+    font-family: var(--textfont);
+}
+
+/* Body Styles*/
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    font-family: var(--textfont);
+}
+
+#headerContent {
+    background-color: var(--background2);
+    padding-top: 1.2vh;
+    padding-right: 5vw;
+    padding-bottom: 1.2vh;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navMenu {
+}
+
+#headerContent li {
+    display: inline;
+}
+
+#headerContent a {
+    color: var(--background);
+    padding: 1rem;
+}
+
+#headerContent a:hover {
+    color: var(--background2);
+    background-color: var(--background);
+    padding: 1rem;
+    border-radius: .2rem;
+    }
