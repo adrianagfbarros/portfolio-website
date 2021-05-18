@@ -1,1 +1,1 @@
-Creating my new website portfolio. In there I am gonna post all my front-end code word.
+Creating my new website portfolio. In this repository I am gonna develop a new website to demonstrate front-end abilities I have acquired so far. 
