@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--titles)
 }
 
@@ -73,7 +73,10 @@ main {
     width: 80vw;
     height: 70vh; 
     padding-top: 30vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
     margin: auto;
+    background-image: url(images/imagem.png);
 }
 
 #heroSection h1 {
@@ -106,11 +109,35 @@ main {
 }
 
 #infoSection {
+    width: 80vw;
+    margin: auto;
+    position: relative;
     height: 100vh;
+    margin-bottom: auto;
+}
+
+#infoCards {
+    position: relative;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgcontent {
+    width: 80%;
+}
+
+.cardContent {
+    padding: 2%;
 }
 
 #aboutSection {
+    position: relative;
     height: 100vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 30vh;
 }
 
 #contactSection {
