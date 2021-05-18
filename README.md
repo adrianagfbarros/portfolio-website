@@ -1,3 +1,1 @@
-Novo readme
-teste do git
-meu primeiro arquivo no git
+Creating my new website portfolio. In there I am gonna post all my front-end code word.
